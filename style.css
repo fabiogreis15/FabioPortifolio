@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+
+body{
+    background-color: #020F1F;
+    height: 100vh;
+}
+header h1{
+    margin-left: 550px;
+    color: #00FFFF;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+header{
+    padding: 40px 4%;
+}
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-desktop a{
+    color: #00FFFF;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+header a:hover{
+    color: #00FFFF;
+    transform: scale(1.05);
+}
+header nav ul{
+    list-style-type: none;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+header .Mapa{
+    padding: 50px;
+    margin-left: 350px;
+}
+header .FR-Contato button{
+    padding: 5% 20px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #00FFFF;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+header .FR-Contato:hover{
+    box-shadow: 0px 0px 8px #00ffff;
+}
+header .Sobre{
+    margin-top: 20px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 350px;
+    color: #00FFFF;
+}
+header .Reis{
+    margin-top: 200px;
+    margin-left: 580px;
+    border-radius: 180px;
+}
+header .Projeto{
+    color: #00FFFF;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 170px;
+}
+header .Eco{
+    margin-top: 50px;
+    margin-left: 525px;
+    margin-bottom: 180px;
+    border-radius: 80px;
+}
+header .Contatos{
+    margin-top: 250px;
+    margin-left: 580px;
+    margin-right: 500px;
+    
+    color: #00FFFF;
+}
+header .Redes{
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-bottom: 180px;
+    border-radius: 80px;
+}
+main{
+    margin: 50px;
+    display: block;
+    align-items: center;
+    text-align: center;
+}
